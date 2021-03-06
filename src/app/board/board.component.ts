@@ -24,15 +24,18 @@ export class BoardComponent implements OnInit {
   todo:Todo[] = [
     {id:'1',
     name:'crear codigo',
-    descripcion:'implementar programacion'
+    descripcion:'implementar programacion',
+    estado:'todo'
     },
     {id:'2',
     name:'Diseño',
-    descripcion:'implementar color y obtimizacion'
+    descripcion:'implementar color y obtimizacion',
+    estado:'todo'
     },
     {id:'3',
     name:'revicion',
-    descripcion:'reaccion al programa'
+    descripcion:'reaccion al programa',
+    estado:'todo'
     }
 
   ];
@@ -40,7 +43,8 @@ export class BoardComponent implements OnInit {
   CodeReview:Todo[]=[
     {id:'',
     name:'',
-    descripcion:''
+    descripcion:'',
+    estado:''
     }
 
   ];
@@ -48,7 +52,8 @@ export class BoardComponent implements OnInit {
   InProcess:Todo[]=[
     {id:'',
     name:'',
-    descripcion:''
+    descripcion:'',
+    estado:'todo'
     }
   ];
 
@@ -57,7 +62,8 @@ export class BoardComponent implements OnInit {
 
     {id:'',
     name:'',
-    descripcion:''
+    descripcion:'',
+    estado:''
     }
   ];
 
